@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Sparkle Store — Luxury Crystal-Beaded Bags</title>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Top Bar -->
+  <div class="topbar">
+    <p class="topbar__text">
+      Hand-finished in India • Free express shipping on orders over ₹7,500
+    </p>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header__wrap">
+      <a class="brand" href="#">
+        <span class="brand__mark" aria-hidden="true">✦</span>
+        <span class="brand__name">THE SPARKLE STORE</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#new" class="nav__link">New In</a>
+        <a href="#collections" class="nav__link">Collections</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <a class="btn btn--ghost" href="#lookbook">Lookbook</a>
+        <a class="btn btn--solid" href="#shop">Shop Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home" aria-label="Hero">
+    <div class="container hero__grid">
+      <div class="hero__left">
+        <h1 class="headline">
+          Carry Brilliance.
+          <span class="headline__sub">Crystal-beaded artistry for nights that matter.</span>
+        </h1>
+        <p class="lead">
+          From candlelit dinners to red-carpet moments, our bags are handcrafted to glimmer with every step—quietly bold, impeccably built, and unmistakably you.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--solid btn--lg" href="#shop">Explore Signature Pieces</a>
+          <a class="btn btn--ghost btn--lg" href="#story">Our Craft</a>
+        </div>
+
+        <ul class="hero__badges" role="list">
+          <li>Conflict-free crystals</li>
+          <li>Limited-run drops</li>
+          <li>Lifetime sparkle care</li>
+        </ul>
+      </div>
+
+      <div class="hero__right">
+        <div class="card-stack">
+          <figure class="card card--prime">
+            <div class="card__img card__img--aurora shimmer" role="img" aria-label="Crystal-beaded evening bag on dark velvet"></div>
+            <figcaption class="card__caption">
+              Signature Collection — Limited
+              <span>Handcrafted excellence • Exclusive design</span>
+            </figcaption>
+          </figure>
+
+          <figure class="card card--secondary">
+            <div class="card__img card__img--secondary shimmer" role="img" aria-label="Sculpted clutch with gem handle"></div>
+            <figcaption class="card__caption">
+              Halo Clutch — Noir
+              <span>Gem handle • Satin-lined interior</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__marquee" aria-hidden="true">
+      <div class="marquee__track">
+        ✦ luminance • couture • finesse • shimmer • exclusivity • hand-beaded • luminance • couture • finesse • shimmer • exclusivity • hand-beaded •
+      </div>
+    </div>
+  </section>
+
+  <!-- New Arrivals -->
+  <section class="section" id="new" aria-label="New Arrivals">
+    <div class="container section__head">
+      <h2 class="title">New Arrivals</h2>
+      <a class="link" href="#shop">View all</a>
+    </div>
+
+    <div class="container product-grid">
+      <!-- Product Card -->
+      <article class="product">
+        <a href="#p1" class="product__frame">
+          <div class="product__img pi--local" aria-hidden="true"></div>
+        </a>
+        <div class="product__meta">
+          <h3 class="product__name">Starlit Micro Tote</h3>
+          <p class="product__desc">Sculpted silhouette with glass-crystal lattice.</p>
+          <div class="product__row">
+            <span class="price">₹8,990</span>
+            <button class="btn btn--ghost btn--sm">Add to Bag</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <a href="#p2" class="product__frame">
+          <div class="product__img pi--2" aria-hidden="true"></div>
+        </a>
+        <div class="product__meta">
+          <h3 class="product__name">Celeste Evening Pouch</h3>
+          <p class="product__desc">Soft drape, full-crystal sheen, velvet touch.</p>
+          <div class="product__row">
+            <span class="price">₹7,450</span>
+            <button class="btn btn--ghost btn--sm">Add to Bag</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <a href="#p3" class="product__frame">
+          <div class="product__img pi--3" aria-hidden="true"></div>
+        </a>
+        <div class="product__meta">
+          <h3 class="product__name">Opaline Box Clutch</h3>
+          <p class="product__desc">Mirror-edge frame with satin-lined interior.</p>
+          <div class="product__row">
+            <span class="price">₹9,990</span>
+            <button class="btn btn--ghost btn--sm">Add to Bag</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product">
+        <a href="#p4" class="product__frame">
+          <div class="product__img pi--4" aria-hidden="true"></div>
+        </a>
+        <div class="product__meta">
+          <h3 class="product__name">Lustre Bead Minaudière</h3>
+          <p class="product__desc">Hand-loomed crystals with hidden clasp.</p>
+          <div class="product__row">
+            <span class="price">₹10,490</span>
+            <button class="btn btn--ghost btn--sm">Add to Bag</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Collections Strip -->
+  <section class="section section--alt" id="collections" aria-label="Collections">
+    <div class="container section__head">
+      <h2 class="title">Curated Collections</h2>
+    </div>
+
+    <div class="container collections">
+      <a class="collection" href="#collection-aurora">
+        <div class="collection__img ci--1" aria-hidden="true"></div>
+        <div class="collection__label">Aurora</div>
+      </a>
+      <a class="collection" href="#collection-noir">
+        <div class="collection__img ci--2" aria-hidden="true"></div>
+        <div class="collection__label">Noir</div>
+      </a>
+      <a class="collection" href="#collection-atelier">
+        <div class="collection__img ci--3" aria-hidden="true"></div>
+        <div class="collection__label">Atelier</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- About / Craft -->
+  <section class="section" id="about">
+    <div class="container about">
+      <div class="about__copy">
+        <h2 class="title">Made to Shine. Built to Last.</h2>
+        <p>
+          Every Sparkle Store piece is beaded by skilled artisans using conflict-free crystals and premium hardware. We design for glow and longevity—bags that photograph beautifully, feel luxurious in hand, and accompany you for years.
+        </p>
+        <ul class="list">
+          <li>Ethically sourced components</li>
+          <li>Ultra-smooth satin interiors</li>
+          <li>Reinforced seams & micro-stitching</li>
+          <li>Complimentary first polish service</li>
+        </ul>
+        <a class="btn btn--solid" href="#story">Discover the Craft</a>
+      </div>
+      <div class="about__visual" aria-hidden="true">
+        <div class="about__img ai--1 shimmer"></div>
+        <div class="about__img ai--2 shimmer"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section section--alt">
+    <div class="container">
+      <h2 class="title">What Our Clients Say</h2>
+      <div class="quotes">
+        <blockquote class="quote">
+          “The crystals catch light like nothing else. I carried mine to a reception and strangers kept asking where it’s from.”
+          <cite>— Aisha R.</cite>
+        </blockquote>
+        <blockquote class="quote">
+          “Elegant without shouting. The craftsmanship is superb and the care kit was a lovely touch.”
+          <cite>— Meera K.</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer__grid">
+      <div>
+        <div class="brand brand--footer">
+          <span class="brand__mark">✦</span>
+          <span class="brand__name">The Sparkle Store</span>
+        </div>
+        <p class="muted">
+          Gurgaon, India • support@thesparklestore.co.in
+        </p>
+      </div>
+
+      <form class="newsletter" action="#" method="post">
+        <label for="email" class="newsletter__label">Get early access to drops</label>
+        <div class="newsletter__row">
+          <input id="email" type="email" placeholder="you@example.com" required />
+          <button class="btn btn--solid" type="submit">Subscribe</button>
+        </div>
+        <p class="tiny muted">By subscribing, you agree to receive emails from The Sparkle Store.</p>
+      </form>
+
+      <nav class="footnav" aria-label="Footer">
+        <a href="#shipping">Shipping</a>
+        <a href="#returns">Returns</a>
+        <a href="#care">Care Guide</a>
+        <a href="#terms">Terms</a>
+      </nav>
+    </div>
+
+    <div class="legal">
+      <p>© <span id="year"></span> The Sparkle Store. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // year only (safe for local)
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
